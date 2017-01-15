@@ -41,7 +41,14 @@ const App = props => {
           </div>
         </aside>
         
-        
+        <main className="col-md-8">
+          <div className="inner">
+            <About aboutData={summaryData} />
+            <Work workData={workData} />
+            <Skills skillsData={skillsData} />
+            <Education educationData={educationData} />
+          </div>
+        </main>
       </div>
     </div>
   );
