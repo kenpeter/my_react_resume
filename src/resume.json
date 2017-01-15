@@ -1,0 +1,31 @@
+{
+  "basics": {
+    "name": "Gary Liang",
+    "label": "Full stack developer",
+    "picture": "./profile.jpg",
+    "email": "figo2476@gmail.com",
+    "phone": "12345678",
+    "website": "site.com",
+    "summary": "summary.....",
+    "location": {
+      "address": "Sutherland",
+      "postalCode": "2232",
+      "city": "Sydney",
+      "countryCode": "Aus",
+      "region": "NSW"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "kenpeter",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "thegaryliang",
+        "url": ""
+      }
+    ]
+  }
+
+}
