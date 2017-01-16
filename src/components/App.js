@@ -18,35 +18,35 @@ const App = props => {
   // props.jsonObj
   // basics
   // jsonObj is the prop being passed.
-  const profileData = props.jsonObj.basics;
+  const profile = props.jsonObj.basics;
   
-  // profileData summary
-  const summaryData = profileData.summary;
+  // basicData summary
+  const summary = profile.summary;
   
   // work
-  const workData = props.jsonObj.work;
+  const work = props.jsonObj.work;
   
   // skill
-  const skillsData = props.jsonObj.skills;
+  const skill = props.jsonObj.skills;
   
   // education
-  const educationData = props.jsonObj.education;
+  const education = props.jsonObj.education;
 
   return (
     <div className="container">
       <div className="row">
         <aside className="col-md-4">
           <div className="inner">
-            <Profile profileData={profileData} />
+            <Profile profile={profile} />
           </div>
         </aside>
         
         <main className="col-md-8">
           <div className="inner">
-            <About aboutData={summaryData} />
-            <Work workData={workData} />
-            <Skills skillsData={skillsData} />
-            <Education educationData={educationData} />
+            <About summary={summary} />
+            <Work work={work} />
+            <Skills skill={skill} />
+            <Education education={education} />
           </div>
         </main>
       </div>

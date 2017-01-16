@@ -6,13 +6,13 @@
     "email": "figo2476@gmail.com",
     "phone": "12345678",
     "website": "site.com",
-    "summary": "summary.....",
+    "summary": "For the last 10 years, I have been working with Full stack PHP developer extensively. Technology rangs from Nodejs, React, Express, Laravel 5, REST API, Arduino, Drupal 8/7, Wordpress, Magento, CodeIgniter, MySQL, PostgreSQL, Oracle, AWS, Ubuntu, CentOS. I am good at learning and have very strong problem solving skills. You can checkout out my projects: https://github.com/kenpeter",
     "location": {
-      "address": "Sutherland",
-      "postalCode": "2232",
-      "city": "Sydney",
+      "address": "address",
+      "postalCode": "postcode",
+      "city": "Melbourne",
       "countryCode": "Aus",
-      "region": "NSW"
+      "region": "Victoria"
     },
     "profiles": [
       {
@@ -26,6 +26,89 @@
         "url": ""
       }
     ]
-  }
+  },
+  
+  "work": [
+    {
+      "company": "Amber aviation",
+      "position": "Full stack developer",
+      "website": "https://dev.amberaviationacademy.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Currently, I am developing websites in Drupal 8. At the same time, I am managing their VPS server with WHM. I am also leanring React, Redux, Nodejs and Express. Checkout my current porjects at https://github.com/kenpeter",
+      "highlights": []
+    },
+    
+    {
+      "company": "iGloo software",
+      "position": "IoT Developer",
+      "website": "http://igloosoftware.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "I developed firmware for blind controls and thermostats using Arduino, ESP8266 wifi chip and HM10 bluetooth chip. I managed 7 AWS instances and developed REST API with Laravel 5. I worked with 2 iOS developers, 1 Android and 3 hardware engineers together to develop projects on time.",
+      "highlights": []
+    },
+    
+    {
+      "company": "Fair scan",
+      "position": "Web developer",
+      "website": "http://fairscan.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Freelancing, I made customization for their Magento websites on AWS.",
+      "highlights": []
+    },
+    
+    {
+      "company": "Anne street partner",
+      "position": "Web developer",
+      "website": "http://annestreetpartners.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Freelancing, I made customization for their website with Wordpress and migrated it from AWS to a share host.",
+      "highlights": []
+    },
+    
+    {
+      "company": "University of Melbourne",
+      "position": "Full stack developer",
+      "website": "http://unimelb.edu.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "I developed and managed many websites for Faculty of Arts. They were ranging from simple html website, to Drupal 7 website or custom PHP applications. Technology we were using are Perl, PHP, Solaris, Centos, Debian and various frameworks",
+      "highlights": []
+    },
+    
+    {
+      "company": "Emersion software systems",
+      "position": "Software developer",
+      "website": "https://www.emersion.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Be part of a small team, I developed billing system with in-house MVC framework. Technology ranged from Oracle, PHP and jQuery.",
+      "highlights": []
+    },
+    
+    {
+      "company": "Slattery media group",
+      "position": "Full stack developer",
+      "website": "http://www.slatterymedia.com",
+      "startDate": "",
+      "endDate": "",
+      "summary": "I developed websites for AFL clients by using in-house CMS.",
+      "highlights": []
+    },
+    
+    {
+      "company": "R-co",
+      "position": "Web developer",
+      "website": "http://r-co.com.au",
+      "startDate": "",
+      "endDate": "",
+      "summary": "I developed websites for various clients by using in-house CMS.",
+      "highlights": []
+    }
+    
+  ]
 
 }

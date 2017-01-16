@@ -9,7 +9,7 @@ const Profile = props => {
   // profile obj
   // props
   // profileData
-  const profileObj = props.profileData;
+  const profileObj = props.profile;
   
   return (
     <div>
