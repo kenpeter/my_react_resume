@@ -109,6 +109,43 @@
       "highlights": []
     }
     
-  ]
+  ],
 
+  "skills": [
+    "ES6",
+    "React",
+    "Nodejs",
+    "Javascript",
+    "Arduino",
+    "C++",
+    "REST", 
+    "PHP",
+    "Drupal 7/8",
+    "Wordpress",
+    "Magento",
+    "Laravel",
+    "CodeIgniter",
+    "Oracle",
+    "MySQL",
+    "PostgreSQL",
+    "Git",
+    "jQuery",
+    "Ubuntu",
+    "CentOS",
+    "RedHat",
+    "Docker",
+    "SASS",
+    "Bootstrap"
+  ],
+  
+  "education": [
+    {
+      "institution": "University of Melbourne",
+      "studyType": "Software engineering",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    }
+  ]
 }

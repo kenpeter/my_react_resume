@@ -255,46 +255,80 @@ module.exports = {
     ]
   },
 
+  // process
+  // func
   // We use PostCSS for autoprefixing only.
   postcss: function() {
+    // return []
     return [
+      // auto prefixer
       autoprefixer({
         browsers: [
-          '>1%',
-          'last 4 versions',
-          'Firefox ESR',
+          // 
+          '>1%', // 
+          'last 4 versions', // last 4 versions for each browser
+          'Firefox ESR', // ESR, extentended support release
           'not ie < 9', // React doesn't support IE8 anyway
         ]
       }),
     ];
   },
+  
+  // plugins
   plugins: [
+    // interpolate html plugin
+    // publicUrl empty
+    //
     // Makes the public URL available as %PUBLIC_URL% in index.html, e.g.:
     // <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     // In development, this will be an empty string.
     new InterpolateHtmlPlugin({
       PUBLIC_URL: publicUrl
     }),
+    
+    // appHtml === index.html
+    // inject <script>
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
       inject: true,
       template: paths.appHtml,
     }),
+    
+    
+    // process.env.node_env === development
+    // new
+    // webpack
+    // define plugin env
+    // 
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'development') { ... }. See `./env.js`.
     new webpack.DefinePlugin(env),
+    
+    
+    // new
+    // webpack
+    // hot module
+    // replacement
+    // plugin
+    // 
     // This is necessary to emit hot updates (currently CSS only):
     new webpack.HotModuleReplacementPlugin(),
+    
+    // print error for case
     // Watcher doesn't work well if you mistype casing in a path so we use
     // a plugin that prints an error when you attempt to do this.
     // See https://github.com/facebookincubator/create-react-app/issues/240
     new CaseSensitivePathsPlugin(),
+    
+    // no restart for server
     // If you require a missing module and then `npm install` it, you still have
     // to restart the development server for Webpack to discover it. This plugin
     // makes the discovery automatic so you don't have to restart.
     // See https://github.com/facebookincubator/create-react-app/issues/186
     new WatchMissingNodeModulesPlugin(paths.appNodeModules)
   ],
+  
+  // ????
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.
   node: {
